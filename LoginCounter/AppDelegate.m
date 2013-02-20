@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LCAPIClient.h"
 #import "ViewController.h"
 
 @implementation AppDelegate
@@ -23,6 +23,7 @@
     }
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    [[LCAPIClient sharedClient] addUsername:@"andy" andPassword:@"123"];
     return YES;
 }
 
