@@ -9,5 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet UIButton *userAdd;
+    IBOutlet UIButton *userLogin;
+    IBOutlet UITextField *usernameTextField;
+    IBOutlet UITextField *passwordTextField;
+}
+
+- (IBAction)loginPressed:(id)sender;
+- (IBAction)addPressed:(id)sender;
 
 @end

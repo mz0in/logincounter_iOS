@@ -23,7 +23,7 @@
     }
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
-    [[LCAPIClient sharedClient] addUsername:@"andy" andPassword:@"123"];
+    //[[LCAPIClient sharedClient] addUsername:@"andy" andPassword:@"123"];
     return YES;
 }
 
